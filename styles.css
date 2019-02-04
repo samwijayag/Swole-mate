@@ -1,0 +1,13 @@
+#home{
+    background-image: url("https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.navbar-brand{
+    margin-left:1rem;
+}
+
+.white{
+    color: #66ff18;
+}
