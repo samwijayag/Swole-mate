@@ -1,13 +1,24 @@
-#home{
-    background-image: url("https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80");
-    background-repeat: no-repeat;
-    text-align: center;
+
+nav{
+    display:grid;
+    grid-template-columns: 3fr;
+    align-items: center;
+    height: 5rem;
+    position: fixed;
 }
 
-.navbar-brand{
-    margin-left:1rem;
+#navbar{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: #fff;
 }
 
-.white{
-    color: #66ff18;
+/*.nav{
+    background-image: linear-gradient(90deg, transparent 0%, transparent 100%);
+}*/
+
+#logo{
+    padding: 10px;
 }
