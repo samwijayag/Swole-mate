@@ -1,7 +1,8 @@
+/*color - #ffa333*/
 /*----------------------------------------------*/
 /*Basic setup*/
 /*----------------------------------------------*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,12 +20,19 @@ html{
 /*----------------------------------------------*/
 .row{
     max-width: 1140px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
+section{
+    padding: 80px 0;
+}
+.box{
+    padding: 1%;
+}
+
 
 /*------Headings-------*/
 
-h1{
+h1,p{
     margin: 0;
     color: #fff;
     font-size: 150%;
@@ -33,16 +41,39 @@ h1{
     letter-spacing: 1px;
     word-spacing: 3px;
 }
-p{
-    margin: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 250%;
+h2{
+    font-size: 180%;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    word-spacing: 3px;
+    word-spacing: 2px;
+    text-align: center;
 }
+p{
+    margin-bottom: 20px;
+    font-size: 250%;
+}
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+/*----------PARAGRAPHS--------*/
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin:50px auto;
+}
+.box h4{
+    font-size: 90%;
+    line-height: 145%;
+}
+ion-icon {
+    font-size: 64px;
+    display: block;
+    color: #ffa333;
+    margin-bottom: 10px; 
+}
+
 /*--------Buttons--------*/
 .btn:link,
 .btn:visited {
@@ -92,8 +123,8 @@ header{
     width: auto;
     float: left;
     margin-top: 20px;
-    margin-left: 210px;
 }
+
 .main-nav{
     float: right;
     margin-top: 60px
