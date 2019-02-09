@@ -15,6 +15,7 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
 /*----------------------------------------------*/
 /*Reusable components*/
 /*----------------------------------------------*/
@@ -48,10 +49,14 @@ h2{
     letter-spacing: 1px;
     word-spacing: 2px;
     text-align: center;
+    margin-bottom: 40px;
 }
 p{
     margin-bottom: 20px;
     font-size: 250%;
+}
+h4{
+    margin-bottom: 50px;
 }
 h3{
     font-size: 110%;
@@ -147,3 +152,45 @@ header{
    border-bottom: 2px solid #fff;
 }
 
+/*----------------------------------------------*/
+/*Features*/
+/*----------------------------------------------*/
+.features {
+    background-color: #f4f4f4;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child{
+    padding-left: 3%; 
+    margin-top: 70px; 
+}
+.iphone-screen{
+    width: 40%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+.works-step div{
+    color: #ffa333;
+    border: 2px solid #ffa333;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
