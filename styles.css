@@ -72,11 +72,24 @@ h3{
     font-size: 90%;
     line-height: 145%;
 }
+/*----------Icons-----------*/
 ion-icon {
     font-size: 64px;
     display: block;
     color: #ffa333;
     margin-bottom: 10px; 
+}
+.font-icons{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #ffa333;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -7px;
+    margin-right: 10px;
+
 }
 
 /*--------Buttons--------*/
@@ -111,9 +124,10 @@ ion-icon {
 /*----------------------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/background/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 .hero-text-box{
@@ -193,4 +207,51 @@ header{
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/*----------------------------------------------*/
+/*Locations*/
+/*----------------------------------------------*/
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-box{
+    margin-bottom: 5px;
+    padding-top: 5px;
+}    
+
+/*----------------------------------------------*/
+/*Reviews*/
+/*----------------------------------------------*/
+.reviews{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/reviews.jpg);
+    background-size: cover;  
+    background-attachment: fixed;
+    color: #fff;
+    z-index: 4
+}
+blockquote{
+    margin-top: 20px;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+.quote{
+    color: #ffa333;
+}
+.user-image{
+    width: 100px;
+    border-radius: 70%;
+    margin-right: 10px;
+    vertical-align: middle;
+    border:2px solid #ffa333;
 }
