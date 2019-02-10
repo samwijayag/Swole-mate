@@ -124,7 +124,7 @@ ion-icon {
 /*----------------------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(114, 68, 0, 0.69)), url(images/background/hero.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -228,11 +228,10 @@ header{
 /*Reviews*/
 /*----------------------------------------------*/
 .reviews{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/reviews.jpg);
+    background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/reviews.jpg);
     background-size: cover;  
     background-attachment: fixed;
     color: #fff;
-    z-index: 4
 }
 blockquote{
     margin-top: 20px;
@@ -267,4 +266,20 @@ cite{
 }
 .subscribe-btn{
     margin-left: 660px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 5px 10px;
+}
+.icon-list{
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.footer{
+    background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(239, 146, 6, 0.55)), url(images/background/reviews.jpg);
+    background-size: cover;  
+    background-attachment: fixed;
+    color: #fff;
 }
