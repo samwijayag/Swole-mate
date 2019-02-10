@@ -255,3 +255,16 @@ cite{
     vertical-align: middle;
     border:2px solid #ffa333;
 }
+
+/*----------------------------------------------*/
+/*Subscribe*/
+/*----------------------------------------------*/
+.subscribe {
+    background-color: #f4f4f4;
+}
+.contact-sentence{
+    text-align: center;
+}
+.subscribe-btn{
+    margin-left: 660px;
+}
