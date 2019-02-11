@@ -13,8 +13,9 @@ $(document).ready(function(){
 
 	// Scroll
 	$('.btn-full').click(function(){
-		$('html,body').animate({scrollTop: $('.subscribe').offset().top()},1000);
+		$('html,body').animate({scrollTop: $('.subscribe').offset().top},1000);
 	})
+
 
 });
 
