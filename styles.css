@@ -10,10 +10,13 @@
 html{
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+span{
+    font-weight: 700;
 }
 
 /*----------------------------------------------*/
@@ -144,20 +147,23 @@ header{
     margin-top: 20px;
 }
 
+/*-----------Nav-main---------*/
 .main-nav{
     float: right;
-    margin-top: 60px
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .main-nav li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .main-nav li a:link,
 .main-nav li a:visited{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 70%;
+    padding: 8px 0;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -165,7 +171,23 @@ header{
 .main-nav li a:active{
    border-bottom: 2px solid #fff;
 }
+/*---------Sticky-Nav---------*/
 
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 8px 0;
+    color: #555;
+}
 /*----------------------------------------------*/
 /*Features*/
 /*----------------------------------------------*/
@@ -260,12 +282,7 @@ cite{
 /*----------------------------------------------*/
 .subscribe {
     background-color: #f4f4f4;
-}
-.contact-sentence{
     text-align: center;
-}
-.subscribe-btn{
-    margin-left: 660px;
 }
 
 .copyright{
@@ -275,7 +292,7 @@ cite{
 .icon-list{
     text-align: center;
     margin: 10px auto;
-    cursor: pointer;
+    text-decoration: none;
 }
 .footer{
     background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(239, 146, 6, 0.55)), url(images/background/reviews.jpg);

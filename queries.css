@@ -1,0 +1,24 @@
+
+
+
+/*Big tablets to 1200px*/
+@media only screen and (max-width: 1200px){
+
+}
+
+/*Small tablets to big tablets*/
+@media only screen and (max-width: 1023px){
+
+}
+
+
+/*ipad and other tablets*/
+@media only screen and (max-width: 767px){
+
+}
+
+
+/*small phones from 0 to 480*/
+@media only screen and (max-width: 480px){
+
+}
