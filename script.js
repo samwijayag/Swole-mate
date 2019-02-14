@@ -12,9 +12,21 @@ $(document).ready(function(){
 	});
 
 	// Scroll
+	//buttons
 	$('.btn-full').click(function(){
 		$('html,body').animate({scrollTop: $('.subscribe').offset().top},1000);
 	})
+	$('.btn-ghost').click(function(){
+		$('html,body').animate({scrollTop: $('.features').offset().top},1000);
+	})
+
+	//nav
+	$('.scroll-swole-mate').click(function(){
+		$('html,body').animate({scrollTop: $('.swole-mate').offset().top},1000);
+	})
+
+
+
 
 
 });
