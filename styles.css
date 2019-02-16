@@ -226,6 +226,8 @@ header{
     border: 2px solid #ffa333;
     display: inline-block;
     border-radius: 50%;
+    border-bottom-width: 10px;
+    border-bottom-color: #bb99ff;
     height: 55px;
     width: 55px;
     text-align: center;
@@ -233,11 +235,13 @@ header{
     float: left;
     font-size: 150%;
     margin-right: 25px;
+    margin-bottom: 25px;
 }
 .btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
+    margin-top: 50px;
 }
 
 /*----------------------------------------------*/
