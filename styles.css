@@ -155,7 +155,15 @@ header{
     float: left;
     margin-top: 20px;
 }
-
+.fa-accusoft:before {
+    font-size: 50px;
+    float: left;
+    background-color: #ffa333;
+    color: #ffd78f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -5px;
+}
 /*-----------Nav-main---------*/
 .main-nav{
     float: right;
