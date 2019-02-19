@@ -1,18 +1,32 @@
 
 
 
-/*Big tablets to 1200px*/
+/*Big tablets to pc/laptop 1024-1200*/
 @media only screen and (max-width: 1200px){
-
+	.hero-text-box{
+	    width: 100%;
+	    padding: 0 2%;
+	}
+	.row{padding:0 2%;}
 }
 
-/*Small tablets to big tablets*/
+/*Small tablets to big tablets 768-1023*/
 @media only screen and (max-width: 1023px){
-
+	body{font-size: 18px; }
+	section{padding: 60px 0;}
+	.long-copy{
+	    width: 80%;
+	    margin:10%;
+	}
+	.steps-box{margin-top: 10px;}
+	.steps-box:last-child{margin-top: 10px; }
+	.works-steps{margin-bottom: 40px;}
+	.works-step:last-of-type {margin-bottom: 60px;}
+	.iphone-screen {width: 50%;}
 }
+	
 
-
-/*ipad and other tablets*/
+/*ipad and other tablets 481-767*/
 @media only screen and (max-width: 767px){
 
 }

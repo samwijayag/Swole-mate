@@ -7,13 +7,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html,body{
     background-color: #fff;
     color: #555;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 span{
     font-weight: 700;
@@ -211,10 +212,12 @@ header{
 .features {
     background-color: #f4f4f4;
 }
+.steps-box{
+    margin-top: 30px;
+}
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
 }
 .steps-box:last-child{
     padding-left: 3%; 
