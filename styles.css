@@ -32,8 +32,14 @@ section{
 }
 .box{
     padding: 1%;
+    border: 1px solid #ffa33326;
+    background-color: #fff1dcd1;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: .3s;
 }
-
+.box:hover {
+   transform: scale(1.1)
+}
 
 /*------Headings-------*/
 
@@ -159,7 +165,6 @@ header{
 .fa-accusoft:before {
     font-size: 50px;
     float: left;
-    background-color: #ffa333;
     color: #ffd78f;
     border-radius: 50%;
     display: inline-block;
