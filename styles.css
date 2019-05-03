@@ -1,4 +1,4 @@
-/*color - #ffa333*/
+/*color - #bb99ff*/
 /*----------------------------------------------*/
 /*Basic setup*/
 /*----------------------------------------------*/
@@ -32,8 +32,8 @@ section{
 }
 .box{
     padding: 1%;
-    border: 1px solid #ffa33326;
-    background-color: #fff1dcd1;
+    border: 1px solid #bb99ff4f;
+    background-color: #bb99ff4f;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     transition: .3s;
 }
@@ -75,7 +75,7 @@ h3{
 h2:after {
     display: block;
     height: 2px;
-    background-color:#ffa333 ;
+    background-color:#bb99ff ;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -95,7 +95,7 @@ h2:after {
 ion-icon {
     font-size: 64px;
     display: block;
-    color: #ffa333;
+    color: #7a9ae1;
     margin-bottom: 10px; 
 }
 .font-icons{
@@ -124,8 +124,8 @@ ion-icon {
 }
 .btn-full:link,
 .btn-full:visited{
-    background-color: #ffa333;
-    border: 1px solid #ffa333;
+    background-color: #c231e7;
+    border: 1px solid #c231e7;
     margin-right: 15px;
 
 }
@@ -136,14 +136,14 @@ ion-icon {
 } 
 .btn:hover,
 .btn:active{
-    background-color: #ff8c00;   
+    background-color: #c231e794;   
 }
 /*----------------------------------------------*/
 /*Header*/
 /*----------------------------------------------*/
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(114, 68, 0, 0.69)), url(images/background/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(114, 0, 84, 0.56)), url(images/background/hero.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -165,7 +165,7 @@ header{
 .fa-accusoft:before {
     font-size: 50px;
     float: left;
-    color: #ffd78f;
+    color: #bb99ff;
     border-radius: 50%;
     display: inline-block;
     margin-top: -5px;
@@ -279,7 +279,7 @@ header{
 /*Reviews*/
 /*----------------------------------------------*/
 .reviews{
-    background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(0, 0, 0, 0.69)), url(images/background/reviews.jpg);
+    background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(114, 0, 84, 0.56)), url(images/background/reviews.jpg);
     background-size: cover;  
     background-attachment: fixed;
     color: #fff;
@@ -324,7 +324,7 @@ cite{
     text-decoration: none;
 }
 .footer{
-    background-image:linear-gradient(rgba(239, 146, 6, 0.55), rgba(239, 146, 6, 0.55)), url(images/background/reviews.jpg);
+    background-image:linear-gradient(rgba(114, 0, 84, 0.56), rgba(114, 0, 84, 0.56)), url(images/background/reviews.jpg);
     background-size: cover;  
     background-attachment: fixed;
     color: #fff;
